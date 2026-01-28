@@ -1,0 +1,67 @@
+@charset "utf-8";
+/*CSS Document */
+p{
+	font-size: 16px;
+	line-height: 18px;
+	width: 680px;
+	background-color: antiquewhite;
+	padding: 20px;
+  font-family: inter;
+}
+body{
+  background-image: url(dokumenti/pozadinaa.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: inter;
+}
+.samo-tekst-centar {
+    text-align: center;
+}
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url(dokumenti/MateaZeljko22.ttf) format('truetype');
+}
+.special-text {
+  font-family: 'MyCustomFont', sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+}
+.nesto {
+  display: flex;
+}
+
+.slike{
+  justify-content: center;
+  align-items: center;
+}
+
+.ljepsi{
+  color: aliceblue;
+  text-decoration: none;
+  font-family:italiana;
+  font-size: 25px;
+  margin: 50px;
+}
+
+.lnk{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+h1 .special-text{
+  font-family: MateaZeljko;
+}
+
+h1{
+  font-family:MateaZeljko;
+  font-size: 50px;
+}
